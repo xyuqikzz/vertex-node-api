@@ -1,0 +1,19 @@
+node_modules/
+build/
+.idea
+dist/
+
+# 本地索引、凭据与临时验证产物
+.codegraph/
+codegraph.json
+.scratch/
+artifacts/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+AGENTS.md
+CLAUDE.md

@@ -1,0 +1,28 @@
+{
+  "name": "n-api",
+  "version": "0.1.0",
+  "description": "Vertex Windows Node-API native modules for file, process and system integration",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild && node scripts/package-build.js",
+    "clean": "node-gyp clean",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "7zip-bin-full": "^26.0.1",
+    "node-addon-api": "^8.2.2"
+  },
+  "devDependencies": {
+    "node-gyp": "^11.0.0"
+  },
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyuqikzz/vertex-node-api.git"
+  },
+  "homepage": "https://github.com/xyuqikzz/vertex-node-api#readme",
+  "bugs": {
+    "url": "https://github.com/xyuqikzz/vertex-node-api/issues"
+  }
+}
